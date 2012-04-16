@@ -1,0 +1,274 @@
+2012-04-10 16:01:59 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 16:02:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 16:03:37 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 16:04:07 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 16:04:11 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 16:08:29 Error: [MissingControllerException] Controller class XamppController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 16:08:29 Error: [MissingControllerException] Controller class XamppController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 17:36:41 Error: [MissingControllerException] Controller class HolaController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 17:36:52 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\logo.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/logo.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/logo.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/logo.png')
+#3 [internal function]: PagesController->display('images', 'logo.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 17:40:06 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\<pre class=.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('<pre class=')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('<pre class=', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('<pre class=')
+#3 [internal function]: PagesController->display('<pre class=')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 17:40:18 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\<pre class=.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('<pre class=')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('<pre class=', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('<pre class=')
+#3 [internal function]: PagesController->display('<pre class=')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:03:10 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img2.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img2.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img2.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img2.png')
+#3 [internal function]: PagesController->display('images', 'img2.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:03:10 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img1.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img1.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img1.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img1.png')
+#3 [internal function]: PagesController->display('images', 'img1.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:03:10 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\logo.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/logo.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/logo.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/logo.png')
+#3 [internal function]: PagesController->display('images', 'logo.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:04:12 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\logo.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/logo.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/logo.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/logo.png')
+#3 [internal function]: PagesController->display('images', 'logo.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:04:13 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img1.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img1.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img1.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img1.png')
+#3 [internal function]: PagesController->display('images', 'img1.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:04:13 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img2.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img2.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img2.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img2.png')
+#3 [internal function]: PagesController->display('images', 'img2.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:04:41 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img1.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img1.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img1.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img1.png')
+#3 [internal function]: PagesController->display('images', 'img1.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:04:41 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img2.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img2.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img2.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img2.png')
+#3 [internal function]: PagesController->display('images', 'img2.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:04:41 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\logo.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/logo.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/logo.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/logo.png')
+#3 [internal function]: PagesController->display('images', 'logo.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:05:39 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\logo.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/logo.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/logo.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/logo.png')
+#3 [internal function]: PagesController->display('images', 'logo.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:05:39 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img1.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img1.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img1.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img1.png')
+#3 [internal function]: PagesController->display('images', 'img1.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:05:39 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img2.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img2.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img2.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img2.png')
+#3 [internal function]: PagesController->display('images', 'img2.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:06:01 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img2.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img2.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img2.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img2.png')
+#3 [internal function]: PagesController->display('images', 'img2.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:06:02 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\logo.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/logo.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/logo.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/logo.png')
+#3 [internal function]: PagesController->display('images', 'logo.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:06:02 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img1.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img1.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img1.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img1.png')
+#3 [internal function]: PagesController->display('images', 'img1.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:15:45 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img2.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img2.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img2.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img2.png')
+#3 [internal function]: PagesController->display('images', 'img2.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-10 18:15:45 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\images\img1.png.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('images/img1.png')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('images/img1.png', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('images/img1.png')
+#3 [internal function]: PagesController->display('images', 'img1.png')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-11 17:14:37 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\legalida.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('legalida')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('legalida', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('legalida')
+#3 [internal function]: PagesController->display('legalida')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-16 17:41:30 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\facebook.com\IgnitionMadrid.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('facebook.com/Ig...')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('facebook.com/Ig...', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('facebook.com/Ig...')
+#3 [internal function]: PagesController->display('facebook.com', 'IgnitionMadrid')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-16 17:41:34 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\facebook.com\IgnitionMadrid.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('facebook.com/Ig...')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('facebook.com/Ig...', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('facebook.com/Ig...')
+#3 [internal function]: PagesController->display('facebook.com', 'IgnitionMadrid')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-16 17:41:50 Error: [MissingViewException] View file "C:\xampp\htdocs\proyectos\amistad\app\View\Pages\facebook.com\iLightMadrid.ctp" is missing.
+#0 C:\xampp\htdocs\proyectos\amistad\lib\Cake\View\View.php(460): View->_getViewFileName('facebook.com/iL...')
+#1 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(959): View->render('facebook.com/iL...', NULL)
+#2 C:\xampp\htdocs\proyectos\amistad\app\Controller\PagesController.php(80): Controller->render('facebook.com/iL...')
+#3 [internal function]: PagesController->display('facebook.com', 'iLightMadrid')
+#4 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\proyectos\amistad\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-16 18:12:18 Error: [MissingControllerException] Controller class ConactoController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-16 18:12:45 Error: [MissingControllerException] Controller class ConactoController could not be found.
+#0 C:\xampp\htdocs\proyectos\amistad\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
