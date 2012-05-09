@@ -43,7 +43,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	?>
 </head>
 <body>
-	<div id="container">
+	<div id="container" class="wrapper">
 		<div class="container" id="header">
 	      <a href="https://www.facebook.com/amistadcristianamadrid" target="_blank">Facebook</a> | <a href="https://twitter.com/#!/AmistadMadrid" target="_blank">Twitter</a> | <a href="http://www.youtube.com/user/AmistadMadrid" target="_blank">Youtube</a>
 	   </div>
@@ -56,7 +56,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					<div class="row">
 						<div class="menu container">
 							<ul>
-							   <li><a href="#" <?if($pageActive=='index'){ echo'class="active"';}?> >inicio</a></li>
+							   <li><a href="/" <?if($pageActive=='index'){ echo'class="active"';}?> >inicio</a></li>
 							   <li><a href="/conocenos" <?if($pageActive=='historia'||$pageActive=='vision'||$pageActive=='valores'||$pageActive=='legalidad'){ echo'class="active"';}?>>conócenos</a></li>
 							   <li><a href="/areas" <?if($pageActive=='areas'){ echo'class="active"';}?>>áreas</a></li>
 							   <li><a href="/ensenanzas" <?if($pageActive=='ensenanzas'){ echo'class="active"';}?>>enseñanzas</a></li>
@@ -75,9 +75,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
+		<div class="push"></div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
-	<!-- <footer id="footer" class="hide-on-phones">
+	<footer id="footer" class="hide-on-phones footer">
 	   <div class="footertitle container">
 	      <div class="row">
 	         <div class="pestanya">
@@ -127,6 +128,6 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	   </div>
 	   	   
 	   
-	</footer> -->
+	</footer>
 </body>
 </html>

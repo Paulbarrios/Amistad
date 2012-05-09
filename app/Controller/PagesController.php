@@ -52,7 +52,7 @@ class PagesController extends AppController {
  */
 	public $uses = array('Image', 'Lesson');
 
-	var $paginate = array( 'limit' => 10, 'order' => array('Lesson.date' => 'asc'));
+	var $paginate = array( 'limit' => 10, 'order' => array('Lesson.date' => 'desc'));
 
 
 /**
@@ -85,12 +85,11 @@ class PagesController extends AppController {
 	}
 
 	public function index(){
-		$this->set('images', $this->Image->findByactive(1));
+		$this->set('images', $this->Image->find('all', array('conditions' => array('active' => 1))));
 		$this->pageName('index');
 	}
 
 	private function pageName($path=null){
-		var_dump($path);
 		$this->set('pageActive',$path );
 	}
 

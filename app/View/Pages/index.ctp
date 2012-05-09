@@ -12,10 +12,18 @@
 	<div class="eight columns">			
 		<div class="featured container">
 		<div id="featured"> 
-			<?var_dump($images);?>
-		     <img src="images/img1.png" alt="ayuno" />
-		     <img src="images/img2.png"  alt="facebook" />
+			<? foreach($images as $image):;?>
+		     <a href="http://<? echo $image['Image']['link'];?>" target="_balnk"><img src="<? echo $this->Html->url('/');?>files/images/thumb/max/<? echo $image['Image']['image']; ?>" alt="ayuno" /></a>
+		    <? endforeach;?>
+
 		</div>
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	     $(window).load(function() {
+	         $('#featured').orbit({
+	         directionalNav: false,
+	         });
+	     });
+	</script>

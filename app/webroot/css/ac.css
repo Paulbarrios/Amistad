@@ -20,7 +20,7 @@ height: 100%;
    width: 100%;
    position: absolute;
    bottom: 0 !important;
-   bottom: -1px;
+   position: fixed;
 }
 .minifooter{
    background-color: #ffffff;
@@ -120,7 +120,6 @@ height: 100%;
    height: 290px;
 
    float: right;
-   margin-top: 50px;
 }
 .columfooter{
    width: 191px;
@@ -221,4 +220,13 @@ height: 100%;
 }
 .reproductor{
    height: 25px;
+}
+.wrapper {
+   min-height: 100%;
+   height: auto !important;
+   height: 100%;
+   margin: 0 auto -149px;
+}
+.footer, .push {
+   height: 149px;
 }

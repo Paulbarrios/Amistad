@@ -7,7 +7,7 @@
 			<?php
 				echo $this->Form->input('id');
 				echo $this->Form->input('title');
-				echo $this->Form->input('image');
+				echo $this->Form->input('image', array('type'=>'file'));
 				echo $this->Form->input('link');
 				echo $this->Form->input('active', array('options' => array(0,1)));
 			?>
