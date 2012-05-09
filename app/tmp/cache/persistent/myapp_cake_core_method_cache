@@ -1,2 +1,2 @@
-1336568309
+1336569876
 a:2:{s:4:"name";a:10:{i:1017677216;s:9:"`amistad`";i:-1077351202;s:9:"`lessons`";i:-1038693586;s:13:"`Lesson`.`id`";i:-1658925012;s:16:"`Lesson`.`title`";i:369553213;s:17:"`Lesson`.`author`";i:-953089176;s:15:"`Lesson`.`date`";i:-311038664;s:14:"`Lesson`.`url`";i:1978791357;s:16:"`Lesson`.`video`";i:1558495287;s:8:"`Lesson`";i:-1684970019;s:7:"`count`";}s:6:"fields";a:2:{s:32:"d2bc719b3f20e0e4430930cc37c4cc56";a:6:{i:0;s:13:"`Lesson`.`id`";i:1;s:16:"`Lesson`.`title`";i:2;s:17:"`Lesson`.`author`";i:3;s:15:"`Lesson`.`date`";i:4;s:14:"`Lesson`.`url`";i:5;s:16:"`Lesson`.`video`";}s:32:"8ea2498e5dc45962f01f77a8a8a4bebc";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}
