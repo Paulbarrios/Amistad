@@ -1,12 +1,12 @@
 <div class="row">
 	<div class="three columns offset-by-five">
 		<div class="images form">
-		<?php echo $this->Form->create('Image' , array('enctype' => 'multipart/form-data'));?>
+		<?php echo $this->Form->create('Image' , array('enctype'=>'multipart/form-data'));?>
 			<fieldset>
 				<legend><?php echo __('Add Image'); ?></legend>
 			<?php
 				echo $this->Form->input('title');
-				echo $this->Form->input('image');
+				echo $this->Form->input('image', array('type'=>'file'));
 				echo $this->Form->input('link');
 				echo $this->Form->input('active', array('options' => array(0,1)));
 			?>

@@ -193,12 +193,13 @@ class AdminController extends AppController {
     $nombre_archivo=$upload['name'];
     if (move_uploaded_file($upload['tmp_name'], $directorio . $upload['name']))
     {
-        print "El archivo fue subido con éxito.";
+        //echo "El archivo fue subido con éxito.";
     }
     else
     {
-        print "Error al intentar subir el archivo.";
+        //echo "Error al intentar subir el archivo.";
     }
+    return true;
   }
 
 /**
