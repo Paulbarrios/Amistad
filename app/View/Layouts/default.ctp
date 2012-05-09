@@ -56,10 +56,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					<div class="row">
 						<div class="menu container">
 							<ul>
-							   <li><a href="#" <?if($pageActive=='inicio'){ echo'class="active"';}?> >inicio</a></li>
+							   <li><a href="#" <?if($pageActive=='index'){ echo'class="active"';}?> >inicio</a></li>
 							   <li><a href="/conocenos" <?if($pageActive=='historia'||$pageActive=='vision'||$pageActive=='valores'||$pageActive=='legalidad'){ echo'class="active"';}?>>conócenos</a></li>
 							   <li><a href="/areas" <?if($pageActive=='areas'){ echo'class="active"';}?>>áreas</a></li>
-							   <li><a href="#" <?if($pageActive=='ensenanzas'){ echo'class="active"';}?>>enseñanzas</a></li>
+							   <li><a href="/ensenanzas" <?if($pageActive=='ensenanzas'){ echo'class="active"';}?>>enseñanzas</a></li>
 							   <li><a href="/contacto" <?if($pageActive=='contacto'){ echo'class="active"';}?>>contacto</a></li>
 							</ul>
 						</div>

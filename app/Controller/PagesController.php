@@ -43,14 +43,16 @@ class PagesController extends AppController {
  *
  * @var array
  */
-	public $helpers = array('Html', 'Session');
+	public $helpers = array('Html', 'Session', 'Amistad');
 
 /**
  * This controller does not use a model
  *
  * @var array
  */
-	public $uses = array();
+	public $uses = array('Image', 'Lesson');
+
+	var $paginate = array( 'limit' => 10, 'order' => array('Lesson.date' => 'asc'));
 
 
 /**
@@ -78,7 +80,24 @@ class PagesController extends AppController {
 			$title_for_layout = Inflector::humanize($path[$count - 1]);
 		}
 		$this->set(compact('page', 'subpage', 'title_for_layout'));
-		$this->set('pageActive',$path[0] );
+		$this->pageName($path[0]);
 		$this->render(implode('/', $path));
 	}
+
+	public function index(){
+		$this->set('images', $this->Image->findByactive(1));
+		$this->pageName('index');
+	}
+
+	private function pageName($path=null){
+		var_dump($path);
+		$this->set('pageActive',$path );
+	}
+
+	public function lessons(){
+		$this->set('lessons', $this->paginate('Lesson'));
+		$this->pageName('ensenanzas');
+		//$this->set('lessons', $this->Lesson->find('all'));
+	}
 }
+

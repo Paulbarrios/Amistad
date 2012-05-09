@@ -1,0 +1,547 @@
+<html>
+<head>
+<title>Docs For Class Image_Toolbox</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">Image_Toolbox</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+  		  [ <a href="../classtrees_Image_Toolbox.html" class="menu">class tree: Image_Toolbox</a> ]
+		  [ <a href="../elementindex_Image_Toolbox.html" class="menu">index: Image_Toolbox</a> ]
+		  [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_Image_Toolbox.html">Image_Toolbox</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../Image_Toolbox/_Image_Toolbox_Image_Toolbox_class_php.html">		Image_Toolbox.class.php
+		</a><br>
+	  </div><br />
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../Image_Toolbox/Image_Toolbox.html">Image_Toolbox</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: Image_Toolbox</h1>
+Source Location: /Image_Toolbox.class.php<br /><br />
+
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre></pre><br />
+<div class="description">PHP image manipulation class</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+                            <li>Martin Theimer &lt;<a href="mailto:pappkamerad@decoded.net">mailto:pappkamerad@decoded.net</a>&gt;</li>
+      </ul>
+
+
+
+
+    
+              
+      
+<h4>Version:</h4>
+<ul>
+  <li>1.1.0</li>
+</ul>
+
+<h4>Copyright:</h4>
+<ul>
+  <li>2003, Martin Theimer</li>
+</ul>
+
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodImage_Toolbox">Image_Toolbox</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodaddImage">addImage</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodaddText">addText</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodblend">blend</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodgetServerFeatures">getServerFeatures</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodnewImage">newImage</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodnewOutputSize">newOutputSize</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodoutput">output</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodsave">save</a></li>
+    <li><a href="../Image_Toolbox/Image_Toolbox.html#methodsetResizeMethod">setResizeMethod</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 75]<br />
+PHP image manipulation class<br /><br /><p>This class provides an easy to use library to the PHP GD-based imagefunctions</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td>1.1.0</td>
+  </tr>
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://sourceforge.net/projects/image-toolbox">http://sourceforge.net/projects/image-toolbox</a></td>
+  </tr>
+  <tr>
+    <td><b>copyright:</b>&nbsp;&nbsp;</td><td>2003, Martin Theimer</td>
+  </tr>
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Martin Theimer &lt;<a href="mailto:pappkamerad@decoded.net">mailto:pappkamerad@decoded.net</a>&gt;</td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+  <hr />
+	<a name="methodImage_Toolbox"></a>
+	<h3>constructor Image_Toolbox <span class="smalllinenumber">[line 161]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Image_Toolbox Image_Toolbox(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		The class constructor.<br /><br /><p>Determines the image features of the server and sets the according values.<br />  Additionally you can specify a image to be created/loaded. like <a href="../Image_Toolbox/Image_Toolbox.html#methodaddImage">addImage</a>.</p><p>If no parameter is given, no image resource will be generated<br />  Or:<br />  <em>string</em> <strong>$file</strong> imagefile to load<br />  Or:<br />  <em>integer</em> <strong>$width</strong> imagewidth of new image to be created<br />  <em>integer</em> <strong>$height</strong> imageheight of new image to be created<br />  <em>string</em> <strong>$fillcolor</strong> optional fill the new image with this color (hexformat, e.g. '#FF0000')<br /></p><br /><br /><br />
+
+
+
+
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddImage"></a>
+	<h3>method addImage <span class="smalllinenumber">[line 927]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addImage(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a new image resource based on the given parameters.<br /><br /><p>It does not overwrite the existing image resource.<br />  Instead it is used to load a second image to merge with the existing image.</p><p>Parameter:<br />  <em>string</em> <strong>$file</strong> imagefile to load<br />  Or:<br />  <em>integer</em> <strong>$width</strong> imagewidth of new image to be created<br />  <em>integer</em> <strong>$height</strong> imageheight of new image to be created<br />  <em>string</em> <strong>$fillcolor</strong> optional fill the new image with this color (hexformat, e.g. '#FF0000')<br /></p><br /><br /><br />
+
+
+
+
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddText"></a>
+	<h3>method addText <span class="smalllinenumber">[line 1283]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addText(
+string
+$text, string
+$font, integer
+$size, string
+$color, string|integer
+$x, string|integer
+$y, [integer
+$angle = 0])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Writes text over the image<br /><br /><p>only TTF fonts are supported at the moment</p><p>$x:<br />  You can also use the following keywords ('left', 'center' or 'middle', 'right').<br />  Additionally you can specify an offset in pixel with the keywords like this 'left +10'.<br />  (default = 0)</p><p>$y:<br />  You can also use the following keywords ('top', 'center' or 'middle', 'bottom').<br />  Additionally you can specify an offset in pixel with the keywords like this 'bottom -10'.<br />  (default = 0)</p><br /><br /><br />
+
+
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$text</b>&nbsp;&nbsp;</td>
+        <td>text to be generated.</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$font</b>&nbsp;&nbsp;</td>
+        <td>TTF fontfile to be used. (relative paths are ok).</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$size</b>&nbsp;&nbsp;</td>
+        <td>textsize.</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$color</b>&nbsp;&nbsp;</td>
+        <td>textcolor in hexformat (e.g. '#FF0000').</td>
+      </tr>
+          <tr>
+        <td class="type">string|integer&nbsp;&nbsp;</td>
+        <td><b>$x</b>&nbsp;&nbsp;</td>
+        <td>horizontal postion in pixel.</td>
+      </tr>
+          <tr>
+        <td class="type">string|integer&nbsp;&nbsp;</td>
+        <td><b>$y</b>&nbsp;&nbsp;</td>
+        <td>vertical postion in pixel.</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$angle</b>&nbsp;&nbsp;</td>
+        <td>rotation of the text.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodblend"></a>
+	<h3>method blend <span class="smalllinenumber">[line 979]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void blend(
+[string|integer
+$x = 0], [integer
+$y = 0], [integer
+$mode = IMAGE_TOOLBOX_BLEND_COPY], [integer
+$percent = 100])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Blend two images.<br /><br /><p>Original image and the image loaded with <a href="../Image_Toolbox/Image_Toolbox.html#methodaddImage">addImage</a><br />  NOTE: This operation can take very long and is not intended for realtime use.  (but of course depends on the power of your server :) )</p><p>IMPORTANT: <a href="http://www.php.net/imagecopymerge">http://www.php.net/imagecopymerge</a> doesn't work with PHP 4.3.2. Bug ID: <a href="http://bugs.php.net/bug.php?id=24816">24816</a><br /></p><p>$x:<br />  negative values are possible.<br />  You can also use the following keywords ('left', 'center' or 'middle', 'right').<br />  Additionally you can specify an offset in pixel with the keywords like this 'left +10'.<br />  (default = 0)</p><p>$y:<br />  negative values are possible.<br />  You can also use the following keywords ('top', 'center' or 'middle', 'bottom').<br />  Additionally you can specify an offset in pixel with the keywords like this 'bottom -10'.<br />  (default = 0)</p><p>Possible values for $mode:  <ul><li>IMAGE_TOOLBOX_BLEND_COPY</li><li>IMAGE_TOOLBOX_BLEND_MULTIPLY</li><li>IMAGE_TOOLBOX_BLEND_SCREEN</li><li>IMAGE_TOOLBOX_BLEND_DIFFERENCE</li><li>IMAGE_TOOLBOX_BLEND_EXCLUSION</li><li>IMAGE_TOOLBOX_BLEND_OVERLAY</li></ul></p><p>$percent:<br />  alpha value in percent of blend effect (0 - 100)<br />  (default = 100)</p><br /><br /><br />
+
+
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string|integer&nbsp;&nbsp;</td>
+        <td><b>$x</b>&nbsp;&nbsp;</td>
+        <td>Horizontal position of second image.</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$y</b>&nbsp;&nbsp;</td>
+        <td>Vertical position of second image. negative values are possible.</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$mode</b>&nbsp;&nbsp;</td>
+        <td>blend mode.</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$percent</b>&nbsp;&nbsp;</td>
+        <td>alpha value</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetServerFeatures"></a>
+	<h3>method getServerFeatures <span class="smalllinenumber">[line 225]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getServerFeatures(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an assocative array with information about the image features of this server<br /><br /><p>Array values:  <ul><li>'gd_version' -&gt; what GD version is installed on this server (e.g. 2.0)</li><li>'gif' -&gt; 0 = not supported, 1 = reading is supported, 2 = creating is supported</li><li>'jpg' -&gt; 0 = not supported, 1 = reading is supported, 2 = creating is supported</li><li>'png' -&gt; 0 = not supported, 1 = reading is supported, 2 = creating is supported</li><li>'ttf' -&gt; TTF text creation. true = supported, false = not supported</li></ul></p><br /><br /><br />
+
+
+
+
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodnewImage"></a>
+	<h3>method newImage <span class="smalllinenumber">[line 245]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void newImage(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Flush all image resources and init a new one<br /><br /><p>Parameter:<br />  <em>string</em> <strong>$file</strong> imagefile to load<br />  Or:<br />  <em>integer</em> <strong>$width</strong> imagewidth of new image to be created<br />  <em>integer</em> <strong>$height</strong> imageheight of new image to be created<br />  <em>string</em> <strong>$fillcolor</strong> optional fill the new image with this color (hexformat, e.g. '#FF0000')<br /></p><br /><br /><br />
+
+
+
+
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodnewOutputSize"></a>
+	<h3>method newOutputSize <span class="smalllinenumber">[line 791]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>bool newOutputSize(
+integer
+$width, integer
+$height, [integer
+$mode = 0], [bool
+$autorotate = false], [string
+$bgcolor = '#000000'])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Resize the current image<br /><br /><p>if $width = 0 the new width will be calculated from the $height value preserving the correct aspectratio.<br /></p><p>if $height = 0 the new height will be calculated from the $width value preserving the correct aspectratio.<br /></p><p>$mode can be one of the following:<br />  <ul><li>0 -&gt; image will be resized to the new output size, regardless of the original aspectratio. (default)</li><li>1 -&gt; image will be cropped if necessary to preserve the aspectratio and avoid image distortions.</li><li>2 -&gt; image will be resized preserving its original aspectratio. differences to the new outputsize will be filled with $bgcolor</li></ul></p><p>if $autorotate is set to true the given $width and $height values may &quot;change place&quot; if the given image bias is different from the original one.<br />  if either $width or $height is 0, the new size will be applied to either the new width or the new height based on the bias value of the original image.<br />  (default = false)</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>true on success, otherwise false</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$width</b>&nbsp;&nbsp;</td>
+        <td>new width of image</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$height</b>&nbsp;&nbsp;</td>
+        <td>new height of image</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$mode</b>&nbsp;&nbsp;</td>
+        <td>resize mode</td>
+      </tr>
+          <tr>
+        <td class="type">bool&nbsp;&nbsp;</td>
+        <td><b>$autorotate</b>&nbsp;&nbsp;</td>
+        <td>use autorotating</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$bgcolor</b>&nbsp;&nbsp;</td>
+        <td>background fillcolor (hexformat, e.g. '#FF0000')</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodoutput"></a>
+	<h3>method output <span class="smalllinenumber">[line 504]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>bool output(
+[string|integer
+$output_type = false], [integer
+$output_quality = false], [bool
+$dither = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Output a image to the browser<br /><br /><p>$output_type can be one of the following:<br />  <ul><li>'gif' -&gt; gif image (if supported) (8-bit indexed colors)</li><li>'png' -&gt; png image (if supported) (truecolor)</li><li>'png8' -&gt; png image (if supported) (8-bit indexed colors)</li><li>'jpg' -&gt; jpeg image (if supported) (truecolor)</li></ul>  (default: same as original)</p><p>$dither:<br />  If this is true than dither is used on the conversion from truecolor to 8-bit indexed imageformats (png8, gif)<br />  (default = false)</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>true on success, otherwise false</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string|integer&nbsp;&nbsp;</td>
+        <td><b>$output_type</b>&nbsp;&nbsp;</td>
+        <td>type of outputted image</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$output_quality</b>&nbsp;&nbsp;</td>
+        <td>jpeg quality of outputted image (default: IMAGE_TOOLBOX_DEFAULT_JPEG_QUALITY)</td>
+      </tr>
+          <tr>
+        <td class="type">bool&nbsp;&nbsp;</td>
+        <td><b>$dither</b>&nbsp;&nbsp;</td>
+        <td>use dither</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsave"></a>
+	<h3>method save <span class="smalllinenumber">[line 620]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>bool save(
+string
+$filename, [string|integer
+$output_type = false], [integer
+$output_quality = false], [bool
+$dither = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Save a image to disk<br /><br /><p>$output_type can be one of the following:<br />  <ul><li>'gif' -&gt; gif image (if supported) (8-bit indexed colors)</li><li>'png' -&gt; png image (if supported) (truecolor)</li><li>'png8' -&gt; png image (if supported) (8-bit indexed colors)</li><li>'jpg' -&gt; jpeg image (if supported) (truecolor)</li></ul>  (default: same as original)</p><p>$dither:<br />  If this is true than dither is used on the conversion from truecolor to 8-bit indexed imageformats (png8, gif)<br />  (default = false)</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>true on success, otherwise false</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$filename</b>&nbsp;&nbsp;</td>
+        <td>filename of saved image</td>
+      </tr>
+          <tr>
+        <td class="type">string|integer&nbsp;&nbsp;</td>
+        <td><b>$output_type</b>&nbsp;&nbsp;</td>
+        <td>type of saved image</td>
+      </tr>
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$output_quality</b>&nbsp;&nbsp;</td>
+        <td>jpeg quality of saved image (default: IMAGE_TOOLBOX_DEFAULT_JPEG_QUALITY)</td>
+      </tr>
+          <tr>
+        <td class="type">bool&nbsp;&nbsp;</td>
+        <td><b>$dither</b>&nbsp;&nbsp;</td>
+        <td>use dither</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetResizeMethod"></a>
+	<h3>method setResizeMethod <span class="smalllinenumber">[line 725]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>bool setResizeMethod(
+string|integer
+$method)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the resize method of choice<br /><br /><p>$method can be one of the following:<br />  <ul><li>'resize' -&gt; supported by every version of GD (fast but ugly resize of image)</li><li>'resample' -&gt; only supported by GD version &gt;= 2.0 (slower but antialiased resize of image)</li><li>'workaround' -&gt; supported by every version of GD (workaround function for bicubic resizing, downsizing, VERY slow!, taken from php.net comments)</li><li>'workaround2' -&gt; supported by every version of GD (alternative workaround function for bicubic resizing, down- and upsizing, VERY VERY slow!, taken from php.net comments)</li></ul></p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>true on success, otherwise false</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string|integer&nbsp;&nbsp;</td>
+        <td><b>$method</b>&nbsp;&nbsp;</td>
+        <td>resize method</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Fri,  5 Dec 2003 22:09:41 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.2.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
