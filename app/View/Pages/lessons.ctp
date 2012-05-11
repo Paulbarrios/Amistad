@@ -1,5 +1,11 @@
 <div class="row">
-	<a href="itpc:/<? echo $this->Html->url('/');?>rss">asda</a>
+	<div class="three columns offset-by-eight">
+		<a href="itpc://amistad.trial-web.net/rss">
+			<img src="<? echo $this->Html->url('/');?>images/logopodcast.png" width="200px" height="70px" border="0">
+		</a>
+	</div>
+</div>
+<div class="row">
 	<?php foreach ($lessons as $lesson): ?>
 		<div class="ten columns centered lessons2">
 			<div class="seven columns">
