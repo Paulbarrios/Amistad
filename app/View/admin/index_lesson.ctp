@@ -5,6 +5,7 @@
 			<th><?php echo $this->Paginator->sort('id');?></th>
 			<th><?php echo $this->Paginator->sort('title');?></th>
 			<th><?php echo $this->Paginator->sort('author');?></th>
+			<th><?php echo $this->Paginator->sort('description');?></th>
 			<th><?php echo $this->Paginator->sort('date');?></th>
 			<th><?php echo $this->Paginator->sort('url');?></th>
 			<th><?php echo $this->Paginator->sort('video');?></th>
@@ -16,6 +17,7 @@
 		<td><?php echo h($lesson['Lesson']['id']); ?>&nbsp;</td>
 		<td><?php echo h($lesson['Lesson']['title']); ?>&nbsp;</td>
 		<td><?php echo h($lesson['Lesson']['author']); ?>&nbsp;</td>
+		<td><?php echo h($lesson['Lesson']['description']); ?>&nbsp;</td>
 		<td><?php echo h($lesson['Lesson']['date']); ?>&nbsp;</td>
 		<td><?php echo h($lesson['Lesson']['url']); ?>&nbsp;</td>
 		<td><?php echo h($lesson['Lesson']['video']); ?>&nbsp;</td>

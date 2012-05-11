@@ -1,4 +1,5 @@
 <div class="row">
+	<a href="itpc:/<? echo $this->Html->url('/');?>rss">asda</a>
 	<?php foreach ($lessons as $lesson): ?>
 		<div class="ten columns centered lessons2">
 			<div class="seven columns">

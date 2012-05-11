@@ -31,6 +31,8 @@ App::uses('AppController', 'Controller');
  */
 class PagesController extends AppController {
 
+	public $components = array('RequestHandler');
+
 /**
  * Controller name
  *
@@ -43,7 +45,7 @@ class PagesController extends AppController {
  *
  * @var array
  */
-	public $helpers = array('Html', 'Session', 'Amistad');
+	public $helpers = array('Html', 'Session', 'Amistad', 'Time', 'Text');
 
 /**
  * This controller does not use a model
@@ -98,5 +100,16 @@ class PagesController extends AppController {
 		$this->pageName('ensenanzas');
 		//$this->set('lessons', $this->Lesson->find('all'));
 	}
+
+	public function rss(){
+		
+			$this->layout = 'xml'; 		
+	        $lessons = $this->Lesson->find('all');
+	        return $this->set(compact('lessons'));
+	    
+		
+		$this->set('lessons', $this->Lesson->find('all'));
+	}
+
 }
 

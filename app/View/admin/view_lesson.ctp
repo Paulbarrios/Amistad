@@ -16,6 +16,11 @@
 			<?php echo h($lesson['Lesson']['author']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Description'); ?></dt>
+		<dd>
+			<?php echo h($lesson['Lesson']['description']); ?>
+			&nbsp;
+		</dd>
 		<dt><?php echo __('Date'); ?></dt>
 		<dd>
 			<?php echo h($lesson['Lesson']['date']); ?>
