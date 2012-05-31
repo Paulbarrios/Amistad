@@ -3,7 +3,7 @@
 		<img src="<? echo $this->Html->url('/');?>images/vision.png" alt="Nuestra visión">
 	</div>
 
-	<div class="eight columns">			
+	<div class="eight columns">
 		<h4>
 			<p>Nuestra visión</p>
 		</h4>
@@ -14,12 +14,12 @@
 			<p>Nuestra intención</p>
 		</h4>
 
-		<p>Creemos que la fe en Jesucristo es fuente <del></del> cambio en la vida de los hombres; transforma el egoísmo en generosidad, la violencia en paz y el odio en amor activo. De ahí el deseo por nuestra parte de divulgar estas buenas noticias, para la gloria de Dios.</p>
+		<p>Creemos que la fe en Jesucristo cambia la vida del ser humano; transforma el egoísmo en generosidad, la violencia en paz y el odio en amor activo. De ahí el deseo por nuestra parte de divulgar estas buenas noticias para la gloria de Dios.</p>
 
 		<h4>
 			<p>Nuestra dirección</p>
 		</h4>
 
-		<p>El equipo de responsables se compone de personas totalmente dedicadas y existe una gran cantidad de voluntarios,  preparados específicamente para sus respectivas tareas. Nuestro deseo es servir, enseñar y asesorar. Ofrecemos consejo personal y familiar, impartido por personas con experiencia. Nuestro deseo es simplemente ayudar a cada persona a salir adelante y recibir la sanidad y restauración que Dios ofrece.</p>
+		<p>Existe una gran cantidad de voluntarios, comenzando por el equipo de responsables, preparados específicamente para sus respectivas tareas. Nuestro deseo es servir, enseñar y asesorar, ofreciendo consejo personal y familiar, impartido por personas con experiencia. Queremos ayudar a cada persona a salir adelante y recibir la sanidad y restauración que Dios ofrece.</p>
 	</div>
 </div>

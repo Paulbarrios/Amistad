@@ -42,7 +42,7 @@
 					<div class="lwhite">[ Jóvenes profesionales ]</div>
 				</div>
 				<div class="despcrip grey2">
-					<p>Todos los jueves</p>
+					<p>Jueves a las 20 h.</p>
 					<a href="http://www.facebook.com/RedesAmistadCristiana" target"_blank">>Facebbok</a>
 				</div>
 			</div>
@@ -60,21 +60,21 @@
 					<h5 class="lwhite">Hombres de palabra</h5>
 				</div>
 				<div class="grey2">
-					<p>Entérate de las reuniones, conferencias, y actividades de los hombres de amistad:</p>
+
 				</div>
 			</div>
 		</div>
 
 	</div>
 
-	<div class="two columns oracion">			
+	<div class="two columns oracion">
 		<div class="greyo">
 			<h5 class="lwhite">
 				<p>Oración</p>
 			</h5>
 		</div>
 		<div class="greyo2">
-		<p>La oración eficaz del justo puede mucho. Todos los miércoles a las 20:00h nos reunimos para buscar a Dios juntos y orar unos por otros.</p>		
+		<p>La oración eficaz del justo puede mucho. Todos los miércoles a las 20:00h nos reunimos para buscar a Dios juntos y orar unos por otros.</p>
 		<p>Abierto a toda la iglesia.</p>
 		<p>¡Te esperamos!</p>
 		</div>

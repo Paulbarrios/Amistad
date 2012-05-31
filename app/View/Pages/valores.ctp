@@ -3,12 +3,16 @@
 		<img src="<? echo $this->Html->url('/');?>images/valores.png" alt="Nuestra visión" height="600" width="91">
 	</div>
 
-	<div class="eight columns">			
+	<div class="eight columns">
 		<h4>
 			<p>Valores y Principios</p>
 		</h4>
 
-		<p>Estamos enraizados en los principios del Cristianismo. El ministerio de Amistad Cristiana se basa en siete principios fundamentales de la fe cristiana. Estas creencias no sólo sirven para señalar el contexto histórico cristiano del que procedemos, sino también para expresar nuestra alianza con el Salvador y nuestra dedicación a sus propósitos.</p>
+		<p>Estamos enraizados en los principios del Cristianismo. El ministerio de Amistad Cristiana se basa en siete principios fundamentales que no sólo sirven para indicar el contexto histórico cristiano del que procedemos, sino también para expresar nuestra alianza con Jesucristo y nuestra dedicación a sus propósitos.</p>
+
+    <h5>
+      <p>Nuestra fe</p>
+    </h5>
 
 		<ol>
 			<li>Creemos en un solo Dios Padre, Hijo y Espíritu Santo.</li>
@@ -20,7 +24,9 @@
 			<li>Creemos que debemos seguir el mandato de Jesús de comunicar el Evangelio a todo el mundo, esperando su regreso en persona en el tiempo adecuado.</li>
 		</ol>
 
-		<p>Amistad Cristiana se compromete a realizar su actividad reflejando los siguientes principios, empezando con integridad de corazón y culminando en un estilo de vida moral que honre a Dios.</p>
+		<h5>
+      <p>Nuestros principios</p>
+    </h5>
 
 		<p><strong>Integridad en el mensaje.</strong> Buscamos permanentemente un equilibrio dentro del contexto bíblico, para trasmitir fielmente las verdades de la Biblia y ser dignos de confianza (Mateo 5:37, II Pedro 1:16, I Juan 3:1-3). Anhelamos ofrecer a Dios nuestro mejor trabajo. 
 		Pretendemos comunicar los principios eternos del Evangelio de una forma contemporánea y creativa (Génesis 1:1-31, Éxodo 31:1-3).</p>

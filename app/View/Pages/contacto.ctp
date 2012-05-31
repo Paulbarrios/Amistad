@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="five columns lateral">
 		<h4>
-			<p>Queremos escucharte</p>
+			<p>Ponte en contacto con nosotros</p>
 		</h4>
 
 		<strong>email@amistadcristianamadrid.org  | T. 91 448 44 11</strong> 
