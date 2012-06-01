@@ -8,7 +8,7 @@
 				</div>
 				<div class="despcrip grey2">
 					<p>En Amistad amamos a los niños y consideramos un gran honor servir a los niños y familias de nuestra iglesia.</p>
-					<a href= "http://www.facebook.com/AmistadKids" target="_blank">>Facebook</a>
+					<a href= "http://http://www.facebook.com/ChavalesMadrid" target="_blank">>Facebook</a>
 				</div>
 			</div>
 			<div class="four columns lateral">
@@ -18,7 +18,7 @@
 				</div>
 				<div class="despcrip grey2">
 					<p>El grupo de adolescentes de Amistad Cristiana. Para más información sobre reuniones, actividades, etc, consulta:</p>
-					<a href="http://www.facebook.com/iLightMadrid" target="_blank">>Facebook</a>
+					<a href="http://www.facebook.com/groups/110536408973818/" target="_blank">>Facebook</a>
 				</div>
 			</div>
 			<div class="four columns lateral">
