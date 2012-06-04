@@ -4,7 +4,7 @@
 			<p>Ponte en contacto con nosotros</p>
 		</h4>
 
-		<strong>email@amistadcristianamadrid.org  | T. 91 448 44 11</strong> 
+		<strong><a href="mailto:email@amistadcristianamadrid.org">email@amistadcristianamadrid.org</a>  | T. 91 448 44 11</strong> 
 
 		<strong>Oficinas y Reuniones Semanales</strong>
 		<p>c/ Vallehermoso 70, Madrid (metro Canal y Quevedo)
@@ -15,7 +15,7 @@
 				Google Map</p>
 
 		<p>
-			<strong><a href="http://www.facebook.com/AmistadCristianaMadrid">Facebook.com/AmistadCristianaMadrid</a></strong>
+			<strong><a href="http://www.facebook.com/AmistadCristianaMadrid" target="_blank">Facebook.com/AmistadCristianaMadrid</a></strong>
 		</p>
 
 		<p>

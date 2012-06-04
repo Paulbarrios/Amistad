@@ -3,12 +3,12 @@
 		<img src="<? echo $this->Html->url('/');?>images/legalidad.png" alt="Nuestra legalidad en España">
 	</div>
 
-	<div class="eight columns">			
+	<div class="eight columns">
 		<h4>
 			<p>Nuestra legalidad en España</p>
 		</h4>
 
-		<p>El Centro Cristiano Amistad Cristiana figura inscrito en el Ministerio de Justicia de España con número 3175-SE/A.</p>
+		<p>Amistad Cristiana figura inscrita en el Ministerio de Justicia de España con número 3175-SE/A.</p>
 
 		<p>Forma parte de la Federación de Entidades Religiosas Evangélicas de España (FEREDE), organismo jurídico que agrupa Iglesias Evangélicas de España y asume las funciones de interlocutor ante el Estado.</p>
 

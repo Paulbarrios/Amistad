@@ -37,6 +37,6 @@
 
 		<p><strong>Integridad en relación con otros grupos cristianos.</strong> Reconocemos que somos una expresión dentro del cuerpo de Cristo y no es nuestra intención "competir" con ningún otro grupo o iglesia. Deseamos que más personas encuentren la salvación y vida en Jesucristo. Donde y cuando sea posible, animamos a la unidad entre cristianos, aún de distintas procedencias (Juan 17:21, Efesios 3:10-11, I Corintios 3:4-6).</p>
 
-		<p><strong>Integridad en el área económica.</strong> Creemos que la manera en que una organización administra sus recursos es un reflejo de su integridad en todas las demás áreas. Los únicos ingresos con los que contamos son los aportados voluntariamente por los propios miembros de nuestra iglesia. Consideramos cada contribución muy importante y es nuestra obligación es emplearla de forma sensata, prudente y transparente. Entre nosotros es imprescindible que la ética en la administración sea intachable.</p>
+		<p><strong>Integridad en el área económica.</strong> Creemos que la manera en que una organización administra sus recursos es un reflejo de su integridad en todas las demás áreas. Los únicos ingresos con los que contamos son los aportados voluntariamente por los propios miembros de nuestra iglesia. Consideramos cada contribución muy importante y nuestra obligación es emplearla de forma sensata, prudente y transparente. Entre nosotros es imprescindible que la ética en la administración sea intachable.</p>
 	</div>
 </div>
