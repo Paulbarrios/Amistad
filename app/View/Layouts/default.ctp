@@ -104,7 +104,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	            </div>
 	            <div class="columfooter">
 	               <h4>Reunión de Oración</h4>
-	               Miércoles, 14:00 y 19:30h
+	               Miércoles, 14:00 y 20:00h
 	            </div>
 	            <div class="columfooter">
 	               <h4>Redes</h4>
@@ -114,20 +114,18 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	            </div>
 	            <div class="columfootermini">
 	               <h4>Grupos en casa</h4>
-	               <a href="#">ver zonas 
+	               <a href="#">ver zonas
 	               y horarios</a>
 	            </div>
 	            </div>
 	         </div>
-	         
 	      </div>
 	   </div>
-	   
+
 	   <div class="minifooter ">
 	     <p> © 2012 Amistad Cristiana Madrid  | c/ Vallehermoso 70, Madrid (España)  |  T. 91 448 44 11<p>
 	   </div>
-	   	   
-	   
+
 	</footer>
 </body>
 </html>

@@ -1,16 +1,16 @@
 <div class="row">
 	<div class="ten columns lateral">
 		<div class="row">
-			<!-- <div class="four columns lateral">
+			<div class="four columns lateral">
         <div class="grey">
           <h5 class="left lwhite">Chavales</h5>
           <div class="lwhite">[ Niños ]</div>
         </div>
         <div class="despcrip grey2">
           <p>En Amistad amamos a los niños y consideramos un gran honor servir a los niños y familias de nuestra iglesia.</p>
-          <a href= "http://http://www.facebook.com/ChavalesMadrid" target="_blank">>Facebook</a>
+          <!-- <a href= "http://http://www.facebook.com/ChavalesMadrid" target="_blank">>Facebook</a> -->
         </div>
-      </div> -->
+      </div>
 			<div class="four columns lateral">
 				<div class="grey">
 					<h5 class="left lwhite">iLight</h5>
@@ -33,14 +33,6 @@
 					</p>
 				</div>
 			</div>
-      <div class="four columns lateral">
-        <div class="grey">
-          <h5 class="lwhite">Hombres de palabra</h5>
-        </div>
-        <div class="grey2">
-
-        </div>
-      </div>
 		</div>
 
 		<div class="row">
@@ -63,8 +55,14 @@
 					<a href="http://www.facebook.com/amistadcristianamadrid/events" target="_blank">>Facebook</a>
 				</div>
 			</div>
+      <div class="four columns lateral">
+        <div class="grey">
+          <h5 class="lwhite">Hombres de palabra</h5>
+        </div>
+        <div class="grey2">
+        </div>
+      </div>
 		</div>
-
 	</div>
 
 	<div class="two columns oracion">

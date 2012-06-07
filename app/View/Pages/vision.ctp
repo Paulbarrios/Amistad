@@ -8,7 +8,7 @@
 			<p>Nuestra visión</p>
 		</h4>
 
-		<p>En una sociedad donde los corazones se han endurecido al mensaje y a los valores del Evangelio de Jesucristo, Amistad Cristiana se ha establecido para llevar a cabo la siguiente visión: <strong>Llevar</strong> a cada persona a una relación genuina con Jesucristo, <strong>acogerla</strong> en la familia de Dios, <strong>ayudarla</strong> en el proceso de madurez cristiana y <strong>animarla</strong> a alcanzar a un mundo quebrantado y perdido.</p>
+		<p>En una sociedad donde los corazones se han endurecido al mensaje y a los valores del Evangelio de Jesucristo, Amistad Cristiana se ha establecido para llevar a cabo la siguiente visión: <p><strong>Llevar</strong> a cada persona a una relación genuina con Jesucristo,</p> <p><strong>acogerla</strong> en la familia de Dios,</p> <p><strong>ayudarla</strong> en el proceso de madurez cristiana y</p> <p><strong>animarla</strong> a alcanzar a un mundo quebrantado y perdido.</p></p>
 
 		<h4>
 			<p>Nuestra intención</p>
