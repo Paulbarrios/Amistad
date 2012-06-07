@@ -78,7 +78,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div class="push"></div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
-	<footer id="footer" class="hide-on-phones footer">
+	<footer id="footer" class="hide-on-phones hide-on-tablets footer">
 	   <div class="footertitle container">
 	      <div class="row">
 	         <div class="pestanya">
