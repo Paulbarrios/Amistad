@@ -57,9 +57,10 @@
 			</div>
       <div class="four columns lateral">
         <div class="grey">
-          <h5 class="lwhite">Hombres de palabra</h5>
+          <h5 class="lwhite">Grupo de matrimonios</h5>
         </div>
         <div class="grey2">
+        	<p>Si estás casado o comprometido en noviazgo y quieres profundizar en la relación con tu pareja ponte en contacto con nosotros. Matrimonios estables originan familias sanas.</p>
         </div>
       </div>
 		</div>
