@@ -9,7 +9,7 @@
 	<?php foreach ($lessons as $lesson): ?>
 		<div class="ten columns centered lessons2">
 			<div class="seven columns">
-				<div><h4>Titulo: <?php echo ($lesson['Lesson']['title']); ?></h4></div>
+				<div><h4><?php echo ($lesson['Lesson']['title']); ?></h4></div>
 				<div><p>Autor: <?php echo ($lesson['Lesson']['author']); ?></p></div>
 				<div><p>Fecha: <?php echo ($lesson['Lesson']['date']); ?></p></div>
 				<div class="reproductor">

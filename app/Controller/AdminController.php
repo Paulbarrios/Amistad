@@ -150,7 +150,13 @@ class AdminController extends AppController {
  */
   public function indexLesson() {
     $this->Lesson->recursive = 0;
-    $this->set('lessons', $this->paginate('Lesson'));
+    $this->paginate = array(
+                              'Lesson' => array(
+                                  'limit' => 20,
+                                  'order' => array('date' => 'desc')
+                                )
+                              );
+    $this->set('lessons',$this->paginate('Lesson') );
   }
 
 /**
