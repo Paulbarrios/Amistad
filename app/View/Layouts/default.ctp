@@ -36,6 +36,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->Html->script('jquery.orbit-1.2.3.min');
 		echo $this->Html->script('app');
 		echo $this->Html->script('foundation');
+    echo $this->Html->script('swfobject');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
