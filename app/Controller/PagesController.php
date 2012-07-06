@@ -98,16 +98,12 @@ class PagesController extends AppController {
 	public function lessons(){
 		$this->set('lessons', $this->paginate('Lesson'));
 		$this->pageName('ensenanzas');
-		//$this->set('lessons', $this->Lesson->find('all'));
 	}
 
 	public function rss(){
-		
-			$this->layout = 'xml'; 		
-	        $lessons = $this->Lesson->find('all');
-	        return $this->set(compact('lessons'));
-	    
-		
+		$this->layout = 'xml';
+        $lessons = $this->Lesson->find('all');
+        return $this->set(compact('lessons'));
 		$this->set('lessons', $this->Lesson->find('all'));
 	}
 
