@@ -27,10 +27,12 @@
 		</div>
 	<?php endforeach; ?>
 </div>
-<div>
-  <?php
-    echo $this->Paginator->prev('< ' . __('Anterior'), array(), null, array('class' => 'prev disabled'));
-    echo $this->Paginator->numbers(array('separator' => ''));
-    echo $this->Paginator->next(__('Siguiente') . ' >', array(), null, array('class' => 'next disabled'));
-  ?>
+<div class = "row">
+  <div class = "pagination right">
+    <?php
+      echo $this->Paginator->prev('< ' . __('Anterior '), array(), null, array('class' => 'arrow unavailable'));
+      echo $this->Paginator->numbers(array('separator' => ' '));
+      echo $this->Paginator->next(__(' Siguiente') . ' >', array(), null, array('class' => 'arrow'));
+    ?>
+  </div>
 </div>
