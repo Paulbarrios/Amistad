@@ -33,6 +33,8 @@
 	Router::connect('/rss', array('controller' => 'pages', 'action' => 'rss'));
 	Router::connect('/ensenanzas', array('controller' => 'pages', 'action' => 'lessons'));
 	Router::connect('/pages/index', array('controller' => 'pages', 'action' => 'index'));
+	Router::connect('/pages/lessons', array('controller' => 'pages', 'action' => 'lessons'));
+	Router::connect('/pages/lessons/*', array('controller' => 'pages', 'action' => 'lessons'));
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 	Router::connect('/areas', array('controller' => 'pages', 'action' => 'display', 'areas'));
 	Router::connect('/contacto', array('controller' => 'pages', 'action' => 'display', 'contacto'));
@@ -41,8 +43,6 @@
 	Router::connect('/conocenos/nuestra_vision', array('controller' => 'pages', 'action' => 'display', 'vision'));
 	Router::connect('/conocenos/valores_y_principios', array('controller' => 'pages', 'action' => 'display', 'valores'));
 	Router::connect('/conocenos/legalidad', array('controller' => 'pages', 'action' => 'display', 'legalidad'));
-	Router::connect('/pages/lessons', array('controller' => 'pages', 'action' => 'lessons'));
-	Router::connect('/pages/lessons/*', array('controller' => 'pages', 'action' => 'lessons'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
