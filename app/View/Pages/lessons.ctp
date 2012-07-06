@@ -28,7 +28,7 @@
 	<?php endforeach; ?>
 </div>
 <div class = "row">
-  <div class = "pagination right">
+  <div class = "pagination four columns centered">
     <?php
       echo $this->Paginator->prev('< ' . __('Anterior '), array(), null, array('class' => 'arrow unavailable'));
       echo $this->Paginator->numbers(array('separator' => ' '));
