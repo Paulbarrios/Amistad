@@ -41,6 +41,9 @@
 	Router::connect('/conocenos/nuestra_vision', array('controller' => 'pages', 'action' => 'display', 'vision'));
 	Router::connect('/conocenos/valores_y_principios', array('controller' => 'pages', 'action' => 'display', 'valores'));
 	Router::connect('/conocenos/legalidad', array('controller' => 'pages', 'action' => 'display', 'legalidad'));
+	Router::connect('/pages/lessons', array('controller' => 'pages', 'action' => 'lessons'));
+	Router::connect('/pages/lessons/*', array('controller' => 'pages', 'action' => 'lessons'));
+
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
  * how to customize the loading of plugin routes.
