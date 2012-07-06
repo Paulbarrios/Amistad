@@ -19,6 +19,7 @@
 						<param name="flashvars" value="mp3=/mp/<?php echo ($lesson['Lesson']['url']); ?>&amp;showtime=1" />
 					</object>
 				</div>
+        <div><a href="<?php echo ($this->Html->url('/mp', true)."/".$lesson['Lesson']['url']);?> " target = "blank">Descarga</a></div>
 			</div>
 			<div class="three columns">
 				<div><? echo $this->Amistad->videos($lesson['Lesson']['video'], 'Video', 270, 140); ?></div>

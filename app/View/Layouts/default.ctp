@@ -50,9 +50,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="content" class="container">
 			<div class="row">
 				<div class="four columns lateral">
-					<img src="<? echo $this->Html->url('/');?>images/logo.png" alt="amistad cristiana madrid" class="logo">				
+					<a href="<? echo $this->Html->url('/', true);?>"><img src="<? echo $this->Html->url('/');?>images/logo.png" alt="amistad cristiana madrid" class="logo"></a>
 				</div>
-				<div class="eight columns">			
+				<div class="eight columns">
 					<div class="row">
 						<div class="menu container">
 							<ul>
@@ -92,8 +92,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	         <div class="twelve columns centered">
 	            <div class="columfooter">
 	               <h4>Reunión General</h4>
-	               Domingos. 11:30h 
-	               c/ Galileo 100 > 
+	               Domingos. 11:30h
+	               c/ Galileo 100 >
 	               <a href="#">ver mapa</a>
 	            </div>
 	            <div class="columfooter">
