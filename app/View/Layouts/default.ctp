@@ -23,7 +23,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<meta name="viewport" content="width=device-width" />
-	<title>Amistad Cristiana Madrid</title>
+	<title>Amistad Cristiana Madrid | Iglesia Cristiana Evangélica</title>
 	<?php
 		echo $this->Html->meta('icon');
 
